@@ -33,9 +33,9 @@
 /*             Author:  Sergio Oller, 2017                               */
 /*************************************************************************/
 
-#include "cmu_us_slt.h"
+#include "cmu_us_rms.h"
 
-#ifndef ENABLE_CMU_US_SLT_BUILTIN
+#ifndef ENABLE_CMU_US_RMS_BUILTIN
 #include "cst_plugins.h"
 mimic_plugin_t mimic_plugin = { "voice_cmu_us_rms", 0, &voice_cmu_us_rms_plugin_init, &voice_cmu_us_rms_plugin_exit};
 #endif
