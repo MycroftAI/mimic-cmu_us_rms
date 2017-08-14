@@ -34,9 +34,6 @@
 /*************************************************************************/
 
 #include "cmu_us_rms.h"
-
-#ifndef ENABLE_CMU_US_RMS_BUILTIN
 #include "cst_plugins.h"
 mimic_plugin_t mimic_plugin = { "voice_cmu_us_rms", 0, &voice_cmu_us_rms_plugin_init, &voice_cmu_us_rms_plugin_exit};
-#endif
 
